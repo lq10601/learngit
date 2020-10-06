@@ -20,3 +20,9 @@ ssh-keygen -t rsa -C "youremail@example.com" 创建key到用户目录
 git remote add origin https://github.com/lq10601/learngit.git 本地仓库与远程仓库关联
 git push -u origin master 把分支master推送到远程,-u与远程master分支关联
 远程库的名字就是origin
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>或者git switch <name>
+创建+切换分支：git checkout -b <name>或者git switch -c <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
